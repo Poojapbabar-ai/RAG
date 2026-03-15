@@ -24,7 +24,7 @@ def load_documents(folder_path):
                     docs.append({"content": page.page_content, "source": file_path})
     return docs
 
-folder_path = "C:\\Users\\Pooja\\Azure_Project\\Thyroid"
+folder_path = "Thyroid"
 
 documents = load_documents(folder_path)
 print(f"Loaded {len(documents)} documents.")
